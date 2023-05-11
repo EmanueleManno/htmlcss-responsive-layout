@@ -164,3 +164,23 @@ header li > a {
     background-color: rgb(151,146,228);
     margin-top: 50px;
 }
+
+.kind-of-benefit {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.benefit-title {
+    padding: 20px 0;
+}
+
+.benefit-card {
+    flex-basis: calc(100% / 3 - 10px);
+    min-height: 350px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+}
