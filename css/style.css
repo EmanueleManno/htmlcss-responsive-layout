@@ -220,9 +220,29 @@ header li > a {
     padding-right: 250px;
     padding-bottom: 50px;
     line-height: 30px;
+    margin-bottom: 50px;
 }
 
 .get-started > a {
     text-decoration: none;
     color: white;
+}
+
+
+/*FOOTER*/
+footer {
+    background-color: rgba(0, 0, 0, 0.75);
+    min-height: 200px;
+    width: 100%;
+    color: white;
+}
+
+.footer-container {
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 50px;
+}
+
+.footer-p {
+    padding-bottom: 50px;
 }
