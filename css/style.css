@@ -21,6 +21,10 @@ margin: 0 auto;
     border: 2px dashed black;
 }
 
+.center-text {
+    text-align: center;
+}
+
 /*HEADER*/
 #main-header {
     height: 100px;
@@ -129,4 +133,34 @@ header li > a {
     min-height: 500px;
     border-radius: 20px;
     flex-basis: 60%;
+}
+
+/*THIRD SECTION*/
+.third-section {
+    padding-top: 50px;
+}
+
+.testimonial {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.citation {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.people-cit {
+    min-height: 150px;
+    border-radius: 20px;
+    flex-basis: calc(100% / 3);
+    background-color: rgb(151,146,228);
+}
+
+/*FOURTH SECTION*/
+.fourth-section {
+    background-color: rgb(151,146,228);
+    margin-top: 50px;
 }
