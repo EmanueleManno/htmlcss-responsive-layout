@@ -207,3 +207,22 @@ header li > a {
     padding-top: 20px;
     line-height: 30px;
 }
+
+/*SIXTH SECTION*/
+.sixth-section {
+    background-color: rgb(151,146,228);
+    margin-top: 50px;
+}
+
+.get-started {
+    padding-top: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 50px;
+    line-height: 30px;
+}
+
+.get-started > a {
+    text-decoration: none;
+    color: white;
+}
