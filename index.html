@@ -22,17 +22,17 @@
 </head>
 <body>
     <!--Intestazione della pagina-->
-    <header id="main-header" class="border">
+    <header id="main-header">
         <!--Contenitore dell'header-->
-        <nav class="navbar container border">
+        <nav class="navbar container">
             <!--Parte sinistra dove c'è l'immagine-->
-            <div class="navbar-left border">
+            <div class="navbar-left">
                 <ul>
-                    <li><a href="#"><img src="img/logo.png" alt="Logo del sito"></a></li>
+                    <li><a href="#" id="header-logo"><img src="img/logo.png" alt="Logo del sito"></a></li>
                 </ul>
             </div>
             <!--Parte destra dove c'è il menù-->
-            <div class="navbar-right border">
+            <div class="navbar-right">
                 <ul>
                     <li><a href="#">Planning</a></li>
                     <li><a href="#">Testimonials</a></li>
@@ -48,14 +48,52 @@
     <!--Corpo della pagina-->
     <main>
         <!--Prima sezione -->
-        <section class="first-section border"> 
+        <section class="first-section"> 
             <!--Contenitore della prima sezione coi vari campi di applicazione-->
-            <div class="fields-of-application container border">
-                <div class="big-card border"></div>
-                <div class="small-card border"></div>
-                <div class="small-card border"></div>
-                <div class="small-card border"></div>
-                <div class="small-card border"></div>
+            <div class="fields-of-application container">
+                <!--Prima card grande-->
+                <div class="big-card">
+                    <div class="big-card-text">
+                        <h5 class="application-title">Get a demo application</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, enim. Excepturi minima distinctio fugiat eos velit possimus molestias hic itaque fuga eius repellendus sed ipsam impedit vel, perferendis exercitationem ipsum.</p>
+                        <a href="#" class="btn application-btn"><i class="fa-brands fa-apple"></i> App Store</a>
+                    </div>
+                    <div class="big-card-img">
+                        <img class="card-img" src="./img/phone.png" alt="Immagine telefono">
+                    </div>
+                </div>
+                <!--Seconda card-->
+                <div class="small-card">
+                    <div class="small-card-content">
+                        <div class="blue-icon"><i class="fa-solid fa-file-code"></i></div>
+                        <h5 class="application-title">Clean Code</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima sed dolorem atque error aut voluptatum provident beatae sunt, facilis incidunt laudantium placeat architecto expedita repellendus enim repudiandae ut hic totam!</p>
+                    </div>
+                </div>
+                <!--Terza card-->
+                <div class="small-card">
+                    <div class="small-card-content">
+                        <div class="blue-icon"><i class="fa-solid fa-compass-drafting"></i></div>
+                        <h5 class="application-title">Web Design</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima sed dolorem atque error aut voluptatum provident beatae sunt, facilis incidunt laudantium placeat architecto expedita repellendus enim repudiandae ut hic totam!</p>
+                    </div>
+                </div>
+                <!--Quarta card-->
+                <div class="small-card">
+                    <div class="small-card-content">
+                        <div class="blue-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                        <h5 class="application-title">Developement</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima sed dolorem atque error aut voluptatum provident beatae sunt, facilis incidunt laudantium placeat architecto expedita repellendus enim repudiandae ut hic totam!</p>
+                    </div>
+                </div>
+                <!--Quinta card-->
+                <div class="small-card">
+                    <div class="small-card-content">
+                        <div class="blue-icon"><i class="fa-solid fa-bullhorn"></i></div>
+                        <h5 class="application-title">Branding</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima sed dolorem atque error aut voluptatum provident beatae sunt, facilis incidunt laudantium placeat architecto expedita repellendus enim repudiandae ut hic totam!</p>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -65,8 +103,13 @@
             <div class="planning-and-develop container border">
                 <!--Prima colonna-->
                 <div class="first-col border">
-                    <div class="small-box border"></div>
-                    <div class="small-box border"></div>
+                    <div class="small-box border">
+                        <img class="plan-img" src="./img/planning1.png" alt="planning1">
+                    </div>
+                    <div class="small-box white border">
+                        <h5>Strategic Planning</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo recusandae eos incidunt possimus dolorum consectetur suscipit ad tempore facere nihil libero odit pariatur, voluptate alias esse cum quisquam consequuntur assumenda!</p>
+                    </div>
                 </div>
                 <!--Seconda colonna-->
                 <div class="second-col border">
