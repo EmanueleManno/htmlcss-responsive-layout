@@ -91,3 +91,42 @@ header li > a {
     min-height: 300px;
     border-radius: 20px;
 }
+
+/*SECOND SECTION*/
+.second-section {
+    background-color: rgb(151,146,228);
+}
+
+.planning-and-develop {
+    display: flex;
+    margin-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 15px;
+}
+
+.first-col {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.second-col {
+    flex-basis: 50%;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.small-box {
+    min-height: 300px;
+    border-radius: 20px;
+    flex-basis: calc(100% / 2);
+}
+
+.big-box {
+    min-height: 500px;
+    border-radius: 20px;
+    flex-basis: 60%;
+}
