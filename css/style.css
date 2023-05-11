@@ -8,7 +8,7 @@ box-sizing: border-box;
 /*GENERICS*/
 body {
 font-family: 'PT Sans', sans-serif;
-padding-top: 110px;
+padding-top: 150px;
 }
 
 /*UTILITIES*/
@@ -62,4 +62,32 @@ header li > a {
 
 .btn-header {
     color: black;
+}
+
+/*FIRST SECTION*/
+.fields-of-application {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    gap: 15px;
+    margin-bottom: 75px;
+}
+
+.small-card {
+    flex-basis: calc(100% / 3 - 15px);
+    flex-shrink: 0;
+    flex-grow: 0;
+    padding: 5px;
+    min-height: 300px;
+    border-radius: 20px;
+}
+
+.big-card {
+    flex-basis: calc(100% / 1.5 - 15px);
+    flex-shrink: 0;
+    flex-grow: 0;
+    padding: 5px;
+    min-height: 300px;
+    border-radius: 20px;
 }
